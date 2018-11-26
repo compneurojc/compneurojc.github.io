@@ -1,3 +1,2 @@
-lewallen.github.io
-===================
-This is my research website: https://lewallen.github.io/
+# compneurojc.github.io
+Website for the MIT/Harvard Computational Neuroscience Journal Club
