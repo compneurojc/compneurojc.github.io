@@ -1,0 +1,351 @@
+/***** fonts from ashok: *****/
+@font-face { font-family: LibreFranklin; src: url('../fonts/librefranklin/LibreFranklin-Medium.ttf'); }
+@font-face { font-family: LibreFranklinEm; src: url('../fonts/librefranklin/LibreFranklin-BoldItalic.ttf'); }
+@font-face { font-family: firasans; src: url('../fonts/firasans/FiraSans-Regular.ttf'); }
+@font-face { font-family: firasansEm; src: url('../fonts/firasans/FiraSans-BoldItalic.ttf'); }
+
+/* default element styles */
+a:link, a:visited {
+  text-decoration: none;
+}
+h1 {
+font-weight: normal;
+margin-bottom: 0;
+margin-top: -.5em;
+padding-top: 0em;
+}
+h2 {
+font-weight: normal;
+margin-bottom: -1em;
+margin-top: 0;
+padding-top: .2em;
+padding-bottom: 0em;
+}
+h3 {
+font-weight: normal;
+margin-bottom: 0;
+margin-top: -.3em;
+padding-top: 0em;
+}
+body {
+margin: 0;
+line-height: 1.4;
+/* font-family: Verdana; */
+font-family: "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+overflow: scroll;
+font-size: 13px;
+}
+p {
+  margin-top: -10px;
+}
+html {
+}
+table {
+border-collapse: collapse;
+margin-top: 1em;
+border-top: 1em;
+}
+table,th,td {
+/*border: 1px solid #eeeeee;*/
+border: 1px solid #ECDEDE;
+text-align: left;
+}
+td {
+padding-top: 0.4em;
+padding-bottom: 0.4em;
+padding-left: 0.75em;
+padding-right: 0.75em;
+}
+hr {
+margin-top: 17px;
+margin-left: 1px;
+margin-right: 1px;
+height: 1px;
+background-color: #eeeeee;
+}
+blockquote {
+margin-top: -1em;
+}
+ul {
+margin: 0;
+padding: 0;
+font-size: 13px;
+}
+ol {
+  margin: 0px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  /* padding: 0; */
+}
+
+/* topbar */
+#topbar {
+min-height: 2.2em;
+line-height: 2.2em;
+background: rgba(47, 204, 50, 0.6);
+padding-left: .5em;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+font-family: Courier,serif;
+}
+@media only screen and (max-width:350px) {
+#topbar {
+min-height: 2.2em;
+line-height: 2.2em;
+background: rgba(47, 204, 50, 0.6);
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+font-family: Courier,serif;
+}
+}
+
+/* navbox */
+.navbox {
+float: left;
+padding-right: 30px;
+background: inherit;
+background-color: transparent;
+}
+.navbox a,
+.navbox a:visited {
+padding-left: .5em;
+padding-right: .5em;
+color: White;
+font-size: 90%;
+}
+.navbox a:hover,
+.navbox a:visited:hover {
+background: White;
+color: Black;
+}
+
+/* backtotop */
+#backtotop {
+position: fixed;
+right: 0;
+bottom: 0;
+z-index: 1;
+background: LimeGreen;
+display: block;
+font-size: 150%;
+}
+#backtotop a,
+#backtotop a:visited {
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0.25em;
+padding-bottom: 0.25em;
+display: block;
+color: White;
+}
+#backtotop a:hover,
+#backtotop a:visited:hover {
+background: OrangeRed;
+}
+
+/* header */
+header {
+text-align: center;
+margin-top: -1em;
+}
+header img {
+display: block;
+margin: 20px;
+padding-bottom: 21px;
+}
+header .name {
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+font-size: 25px;
+}
+/* email */
+header .email {
+/* padding-top: 10px; */
+}
+/* soc */
+#soc {
+padding-top: 5px;
+padding-bottom: 7px;
+}
+
+/* content */
+.content {
+max-width: 960px;
+min-width: 220px;
+background-color: white;
+padding-left: .85em;
+padding-right: .85em;
+padding-bottom: .85em;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+.content img {
+display: inline;
+max-width: 192px;
+max-height: 192px;
+margin-top: 10px;
+margin-bottom: 25px;
+float: left;
+}
+.content a { color: BlueViolet; }
+.content a:hover, a:visited:hover { color: DarkOrange; }
+
+/* from mumford */
+.wrapper {
+padding: 35px 40px;
+background-color: rgba(255,255,255,0);
+position: relative;
+}
+/* #outerwrapper {
+padding:0 20px;
+max-width:960px;
+min-width:100px;
+margin:20px auto;
+} */
+#outerwrapper {
+padding:0 20px;
+max-width:960px;
+min-width:100px;
+margin:20px auto;
+}
+@media only screen and (max-width:350px) {
+.wrapper {
+padding: 0px 0px;
+background-color: rgba(255,255,255,0);
+position: relative;
+}
+}
+.bigbackground {
+background-attachment: fixed;
+background-color: transparent;
+background-size: cover;
+}
+/* .topleft, .topright {top:-24px}
+.topleft, .bottomleft {left:-24px;}
+.topright, .bottomright {right:-24px;}
+.bottomleft, .bottomright {bottom:-24px;} */
+#footer {
+background-color: white;
+border: 1px solid black;
+}
+#footer p {
+margin: 0;
+}
+
+/* Added for vertical centering: (05/19/17, http://vanseodesign.com/css/vertical-centering/) */
+.social {
+margin-top: 100px;
+padding-left: 1em;
+/* padding-right: .4em; */
+font-size: 13px;
+}
+#parent {
+/* padding-bottom: 30px; */
+padding-top: 19px;
+margin-bottom: 30px;
+}
+#child {
+padding-top: 22px;
+margin-bottom: 0px;
+}
+#contextbox {
+padding-top: 10px;
+margin-bottom: 30px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+/* publications */ /* from main.css (alex williams )*/
+.pub-list {
+list-style-type: none;
+/* margin-left: -5px; */
+}
+.pub-list .author{
+font-size: 90%;
+color: #CC5757;
+padding-bottom: 6px;
+}
+.pub-list .paper-links{
+color: #CC5757;
+padding-bottom: 23px;
+}
+.pub-list .title{
+margin-top: -10px;
+font-family: Verdana;
+font-size: 13px;
+}
+
+/* buttons */
+.btn-small{
+color: #2C3E50;
+}
+.btn-small:hover{
+color:red;
+transition: all .3s ease-in-out;
+}
+
+/* contacts */
+.contact{
+}
+.contact:hover{
+/*font-size: 20px;
+transition: all .3s ease-in-out;*/
+}
+
+/* social buttons */
+.btn-social {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 2px solid #2C3E50;
+border-radius: 100%;
+text-align: center;
+font-size: 20px;
+line-height: 45px;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+outline: 0;
+}
+
+/* about */
+p.about {
+text-align: left;
+margin-top: -10px;
+font-size: 13px;
+}
+
+/* htitle */
+p.htitle{
+text-align: center;
+text-transform: uppercase;
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+margin-top: -11px;
+margin-bottom: -14px;
+font-size: 18px;
+}
+h2.htitle {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-top: -5px;
+  margin-bottom: -14px;
+  font-size: 18px;
+}
+h3.htitle {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-top: -11px;
+  margin-bottom: -14px;
+  padding-left: 10px;
+  font-size: 15px;
+}
