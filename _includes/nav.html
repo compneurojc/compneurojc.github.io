@@ -5,17 +5,26 @@
   <div class="menu-header">
     <ul id="menu-main_menu" class="menu">
 
-      <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-        <a href="/index.html">Overview</a>
-      </li>
+      {% for thispage in site.data.pages %}
+
+      {% if {{page.url}} == {{thispage.url}} %}
 
       <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-        <a href="/past_meetings">Past meetings</a>
+        <a href="{{thispage.url}}" style="color: white;">{{thispage.name}}</a>        
       </li>
 
+      {% else %}
+
       <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-        <a href="/suggested_reading">Suggested papers</a>
+        <a href="{{thispage.url}}">{{thispage.name}}</a>
       </li>
+
+{% endif %}
+
+
+
+      {% endfor %}
+
     </ul>
   </div>
 

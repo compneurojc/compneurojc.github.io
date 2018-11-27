@@ -1,0 +1,6 @@
+- name: Overview
+  url: /
+- name: Past meetings
+  url: /past_meetings.html
+- name: Suggested papers
+  url: /suggested_reading.html
