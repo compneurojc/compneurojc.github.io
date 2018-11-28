@@ -28,9 +28,8 @@
       <!-- paper -->
       <td>
         <p><i>{{entry.paper}}</i>, {{entry.authors}}
-          {% if {{entry.urlPW}} %}
-          (<a href="{{entry.urlPW}}">pubmed</a>,
-          <a href="{{entry.urlSH}}">sci-hub</a>)
+          {% if {{entry.url}} %}
+          (<a href="{{entry.urlPW}}">pdf</a>)          
           {% endif %}
       </td>
 
