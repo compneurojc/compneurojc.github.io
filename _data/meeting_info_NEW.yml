@@ -2,7 +2,9 @@
   date: 11.27.2018
   paper: "Opening the black box: low-dimensional dynamics in high-dimensional recurrent neural networks"
   authors: Sussillo, Barak
-  url: https://www.ncbi.nlm.nih.gov/pubmed/23272922
+  urlPW: https://www.ncbi.nlm.nih.gov/pubmed/23272922
+  urlSH: https://sci-hub.tw/10.1162/neco_a_00409
+  location: MIT, 46-5056 (special location for first meeting)
 
 - presenter: Michael Happ
   date: 12.6.2018
