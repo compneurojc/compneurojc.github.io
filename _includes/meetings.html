@@ -4,28 +4,42 @@
       <th style="width: 10%;">Date</th>
       <th style="width: 30%;">Presenter and readers</th>
       <th style="width: 60%;">Reading</th>
+      <th style="width: 60%;">Location</th>
     </tr>
 
     {% assign my_counter = 0 %}
-      {% for entry in site.data.meeting_info %}
-        {% if my_counter == 0 %}
-          <tr class="alt">
-          {% assign my_counter = 1 %}
-        {% else %}
-          <tr>
-          {% assign my_counter = 0 %}
-        {% endif %}
-        <td>{{entry.date}}</td>
-        <td>
-          <p>{{entry.presenter}}</p>
-        </td>
-        <td>
-          <p><i>{{entry.paper}}</i>, {{entry.authors}}
-            {% if entry.url %}
-              (<a href="{{entry.url}}">paper link</a>)
-            {% endif %}
-        </td>
-      </tr>
+    {% for entry in site.data.meeting_info %}
+    {% if my_counter == 0 %}
+    <tr class="alt">
+      {% assign my_counter = 1 %}
+      {% else %}
+    <tr>
+      {% assign my_counter = 0 %}
+      {% endif %}
+
+      <!-- date -->
+      <td>{{entry.date}}</td>
+
+      <!-- presenter -->
+      <td>
+        <p>{{entry.presenter}}</p>
+      </td>
+
+      <!-- paper -->
+      <td>
+        <p><i>{{entry.paper}}</i>, {{entry.authors}}
+          {% if {{entry.urlPW}} %}
+          (<a href="{{entry.urlPW}}">pubmed</a>,
+          <a href="{{entry.urlSH}}">sci-hub</a>)
+          {% endif %}
+      </td>
+
+      <!-- location -->
+      <td>
+        <p>{{entry.location}}</p>
+      </td>
+
+    </tr>
     {% endfor %}
 
   </tbody>
