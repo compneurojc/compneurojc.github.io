@@ -1,12 +1,16 @@
+- presenter: Michael Happ
+  date: 12.6.2018
+  paper: "Learning arbitrary dynamics in efficient, balanced
+spiking networks using local plasticity rules"
+  url: https://arxiv.org/abs/1705.08026
+  pdf: /pdf/1705.08026.pdf
+  authors: Alemi, Machens, Denève, Slotine
+  location: Harvard (Northwest 343)
+
 - presenter: Sam Lewallen
   date: 11.27.2018
   paper: "Opening the black box: low-dimensional dynamics in high-dimensional recurrent neural networks"
   authors: Sussillo, Barak
-  url: /pdf/NECO_a_00409.pdf
+  url: https://www.ncbi.nlm.nih.gov/pubmed/23272922
+  pdf: /pdf/NECO_a_00409.pdf
   location: MIT 46-5056 (special location for first meeting)
-
-- presenter: Michael Happ
-  date: 12.6.2018
-  paper: TBD
-  authors: TBD
-  location: Harvard (Northwest 343)

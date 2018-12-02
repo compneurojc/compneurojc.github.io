@@ -5,7 +5,7 @@
 <!-- head -->
 <head>
   <meta charset="UTF-8" />
-  <title>Computational &amp; Theoretical Neuroscience Journal Club</title>
+  <title>Suggested papers</title>
   <link rel="stylesheet" href="style.css">
   <style type="text/css">
     img.wp-smiley,
@@ -92,10 +92,10 @@
       
 
       <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-        <a href="/" style="color: white;">Overview</a>        
+        <a href="/">Overview</a>
       </li>
 
-      
+
 
 
 
@@ -137,86 +137,23 @@
           <div id="content" role="main">
 
   <p class="section-title">
-    <h2>Overview</h2>
+    <h2>Suggested papers</h2>
   </p>
 
-  <h4><b>Mission Statement</b></h4>
-  <p>This journal club aims to provide a forum for discussing neurons, brains, and behavior among people with diverse quantitative and neurobiology backgrounds. Weekly meetings will focus on a paper relevant to a theoretical understanding of some neuroscientific problem or system. Graduate students and postdocs are especially encouraged to attend and propose/present papers. Appropriate papers present neural data, theoretical models, foundational principles for computation, new statistical, mathematical, or machine learning methods, etc.</p>
+  <p>This is the current list of suggested papers. To add more papers to the list click <a href="https://docs.google.com/document/d/128mCAwiorn5dtGkrjI_xH31sb_u7chUo6_o01udcEUs/edit?usp=sharing">here</a> (or the link below) to edit the table in Google Sheets. You are encouraged to add your name to your suggestions, so we can get to know each other's interests! </p>
 
-  <h4><b>Time &amp; Place</b></h4>
-  <p><i>Thursdays at 11am</i><br>
-    MIT: 46-5165 (<a href="https://goo.gl/maps/DyNcBBNkA9r">google maps</a>) <br>
-    Harvard: Room 343, Northwest Building (<a href="https://goo.gl/maps/VhtWH8Umn9D2">google maps</a>) <br>
-    The journal club alternates between Harvard and MIT. Check the <b>Meetings</b> table below for the location of the next meeting.
-  </p>
+  <div class="entry-content">
+    <div>
+      <p>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vS81XUG1yeKcrZ4-a1GDF0zJJhGwz2OHvk02CG1RwBTzyMnPpe4q2fLyNt3XYm-ygr7TU9ny2TnPkl1/pub?embedded=true" width="90%" height="400"><br />
+        </iframe>
+      </p>
+      <div style="font-size: 15px; margin-left: 10px;">
+        <p><a href="https://docs.google.com/document/d/128mCAwiorn5dtGkrjI_xH31sb_u7chUo6_o01udcEUs/edit?usp=sharing">Edit the table (add more papers to the list)</a></p>
+      </div>
+    </div>
 
-  <h4><b>Mailing List</b></h4>
-  <p>Click <a href="http://mailman.mit.edu/mailman/listinfo/compjc">here</a> to subscribe to the journal club mailing list.</p>
-
-  <!-- Meetings -->
-  <h4><b>Meetings</b></h4>
-  <table style="height: 300px;" width="800">
-  <tbody>
-    <tr class="alt">
-      <th style="width: 10%;">Date</th>
-      <th style="width: 30%;">Presenter and readers</th>
-      <th style="width: 60%;">Reading</th>
-      <th style="width: 60%;">Location</th>
-    </tr>
-
-    
-    
-    
-    <tr class="alt">
-      
-      
-      <!-- date -->
-      <td>12.6.2018</td>
-      <!-- presenter -->
-      <td>
-        <p>Michael Happ</p>
-      </td>
-      <!-- paper -->
-      <td>
-        <p><i>Learning arbitrary dynamics in efficient, balanced spiking networks using local plasticity rules</i>, Alemi, Machens, Denève, Slotine
-          
-          (<a href="https://arxiv.org/abs/1705.08026">link</a>, <a href="/pdf/1705.08026.pdf">pdf</a>)
-          
-      </td>
-      <!-- location -->
-      <td>
-        <p>Harvard (Northwest 343)</p>
-      </td>
-    </tr>
-    
-    
-    <tr>
-      
-      
-      <!-- date -->
-      <td>11.27.2018</td>
-      <!-- presenter -->
-      <td>
-        <p>Sam Lewallen</p>
-      </td>
-      <!-- paper -->
-      <td>
-        <p><i>Opening the black box: low-dimensional dynamics in high-dimensional recurrent neural networks</i>, Sussillo, Barak
-          
-          (<a href="https://www.ncbi.nlm.nih.gov/pubmed/23272922">link</a>, <a href="/pdf/NECO_a_00409.pdf">pdf</a>)
-          
-      </td>
-      <!-- location -->
-      <td>
-        <p>MIT 46-5056 (special location for first meeting)</p>
-      </td>
-    </tr>
-    
-  </tbody>
-</table>
-
-
-</div><!-- #content -->
+  </div>
 
         </div><!-- #container -->
       </div><!-- #main -->

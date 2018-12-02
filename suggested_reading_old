@@ -1,0 +1,27 @@
+---
+layout: default
+title: Suggested papers
+sheetsLink_embedded: "https://docs.google.com/document/d/e/2PACX-1vS81XUG1yeKcrZ4-a1GDF0zJJhGwz2OHvk02CG1RwBTzyMnPpe4q2fLyNt3XYm-ygr7TU9ny2TnPkl1/pub?embedded=true"
+sheetsLink_edit: https://docs.google.com/document/d/128mCAwiorn5dtGkrjI_xH31sb_u7chUo6_o01udcEUs/edit?usp=sharing
+---
+
+<div id="content" role="main">
+
+  <p class="section-title">
+    <h2>Suggested papers</h2>
+  </p>
+
+  <p>This is the current list of suggested papers. To add more papers to the list click <a href="{{ page.sheetsLink_edit }}">here</a> (or the link below) to edit the table in Google Sheets. You are encouraged to add your name to your suggestions, so we can get to know each other's interests! </p>
+
+  <div class="entry-content">
+    <div>
+      <p>
+        <iframe src="{{ page.sheetsLink_embedded }}" width="90%" height="400"><br />
+        </iframe>
+      </p>
+      <div style="font-size: 15px; margin-left: 10px;">
+        <p><a href="{{ page.sheetsLink_edit }}">Edit the table (add more papers to the list)</a></p>
+      </div>
+    </div>
+
+  </div>

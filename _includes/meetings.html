@@ -16,30 +16,24 @@
     <tr>
       {% assign my_counter = 0 %}
       {% endif %}
-
       <!-- date -->
       <td>{{entry.date}}</td>
-
       <!-- presenter -->
       <td>
         <p>{{entry.presenter}}</p>
       </td>
-
       <!-- paper -->
       <td>
         <p><i>{{entry.paper}}</i>, {{entry.authors}}
           {% if {{entry.url}} %}
-          (<a href="{{entry.url}}">pdf</a>)          
+          (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
           {% endif %}
       </td>
-
       <!-- location -->
       <td>
         <p>{{entry.location}}</p>
       </td>
-
     </tr>
     {% endfor %}
-
   </tbody>
 </table>
