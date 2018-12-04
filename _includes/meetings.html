@@ -31,7 +31,14 @@
       </td>
       <!-- location -->
       <td>
-        <p>{{entry.location}}</p>
+        <p>
+        {% if {{entry.location}} == "Harvard" %}
+          Harvard, {{site.roomH}}
+        {% elsif {{entry.location}} == "MIT" %}
+          MIT, {{site.roomM}}
+        {% else %}
+          {{entry.location}}
+        {% endif %}
       </td>
     </tr>
     {% endfor %}
