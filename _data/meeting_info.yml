@@ -1,3 +1,11 @@
+- presenter: Leo Kozachkov
+  date: 12.13.2018
+  paper: "Neuronal Circuits Underlying Persistent Representations Despite Time Varying Activity"
+  url: https://www.sciencedirect.com/science/article/pii/S0960982212010810
+  pdf: "/pdf/Neuronal Circuits Underlying Persistent Representations Despite Time Varying Activity.pdf"
+  authors: Druckmann, Chklovskii
+  location: "MIT"
+
 - presenter: Michael Happ
   date: 12.6.2018
   paper: "Learning arbitrary dynamics in efficient, balanced
