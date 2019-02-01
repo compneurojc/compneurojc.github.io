@@ -1,3 +1,11 @@
+- presenter: Nimrod Shaham
+  date: 2.7.2019
+  paper: "Long-Term Memory Stabilized by Noise-Induced Rehearsal"
+  url: http://www.jneurosci.org/content/34/47/15804
+  pdf: "/pdf/Long_Term_Memory_Stabilized_by_Noise.pdf"
+  authors: Alexei, Koulakov
+  location: "MIT"
+
 - presenter: Leo Kozachkov
   date: 12.13.2018
   paper: "Neuronal Circuits Underlying Persistent Representations Despite Time Varying Activity"
