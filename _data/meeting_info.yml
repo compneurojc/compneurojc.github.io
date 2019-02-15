@@ -1,3 +1,11 @@
+- presenter: Ni Ji
+  date: 2.21.2019
+  paper: "Discrete attractor dynamics underlies persistent activity in the frontal cortex"
+  url: https://www.nature.com/articles/s41586-019-0919-7
+  pdf: "/pdf/Discrete attractor dynamics underlies persistent activity in the frontal cortex.pdf"
+  authors: Inagaki, Fontonal, Romani, Svoboda
+  location: "MIT"
+
 - presenter: Honi Sanders
   date: 2.14.2019
   paper: "Off-line replay maintains declarative memories in a model of hippocampal-neocortical interactions"
