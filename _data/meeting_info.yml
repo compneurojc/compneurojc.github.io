@@ -1,9 +1,17 @@
+- presenter: Sam Lewallen, Michael Happ, Sugandha Sharma
+  date: 3.21.2019
+  paper: "The emergence of multiple retinal cell types through efficient coding of natural movies"
+  url: "https://papers.nips.cc/paper/8150-the-emergence-of-multiple-retinal-cell-types-through-efficient-coding-of-natural-movies"
+  pdf: "/pdf/8150-the-emergence-of-multiple-retinal-cell-types-through-efficient-coding-of-natural-movies.pdf"
+  authors: Ocko*, Lindsey*, Ganguli1, Deny
+  location: "MIT"
+
 - presenter: Ila Fiete
   date: π.2019
   paper: "A Flexible Model of Working Memory"
   url: https://www.biorxiv.org/content/biorxiv/early/2018/09/04/407700.full.pdf
   pdf: "/pdf/A Flexible Model of Working Memory.pdf"
-  authors: Bouchacourt, Buschmanfatom
+  authors: Bouchacourt, Buschman
   location: "Harvard"
 
 - presenter: Ni Ji
