@@ -1,3 +1,12 @@
+
+- presenter: Eli Pollock
+  date: 4.4.2019
+  paper: "Prefrontal cortex as a meta-reinforcement learning system"
+  url: "https://www.nature.com/articles/s41593-018-0147-8"
+  pdf:
+  authors: Wang, Kurth-Nelson, Kumaran, Tirumala, Soyer, Leibo, Hassabis, Botvinick
+  location: "Harvard"
+
 - presenter: Noga Weiss Mosheiff
   date: 3.28.2019
   paper: "Efficiency and stability of the modular grid cell code (research presentation)"
@@ -11,7 +20,7 @@
   paper: "The emergence of multiple retinal cell types through efficient coding of natural movies"
   url: "https://papers.nips.cc/paper/8150-the-emergence-of-multiple-retinal-cell-types-through-efficient-coding-of-natural-movies"
   pdf: "/pdf/8150-the-emergence-of-multiple-retinal-cell-types-through-efficient-coding-of-natural-movies.pdf"
-  authors: Ocko*, Lindsey*, Ganguli1, Deny
+  authors: Ocko*, Lindsey*, Ganguli, Deny
   location: "MIT"
 
 - presenter: Ila Fiete
