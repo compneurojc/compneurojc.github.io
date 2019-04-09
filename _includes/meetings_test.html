@@ -1,0 +1,57 @@
+<table style="height: 300px;" width="800">
+  <tbody>
+    <tr class="alt">
+      <th style="width: 10%;">Date</th>
+      <th style="width: 30%;">Presenter</th>
+      <th style="width: 60%;">Reading</th>
+      <th style="width: 60%;">Location</th>
+    </tr>
+
+    {% assign my_counter = 0 %}
+    {% assign next_meeting = 1 %}
+    {% for entry in site.data.meeting_info %}
+      {% if my_counter == 0 %}
+    <tr class="alt">
+        {% assign my_counter = 1 %}
+      {% else %}
+    <tr>
+        {% assign my_counter = 0 %}
+      {% endif %}
+    <!-- date -->
+    <td>
+      {{entry.date}}
+      {% if next_meeting == 1 %}
+        {% assign next_meeting = 0 %}
+        <!-- <br>
+        <div id="content2">
+        (Upcoming meeting)
+        </div> -->
+      {% endif %}
+
+    </td>
+    <!-- presenter -->
+    <td>
+      <p>{{entry.presenter}}</p>
+    </td>
+    <!-- paper -->
+    <td>
+      <p><i>{{entry.paper}}</i>, {{entry.authors}}
+      {% if {{entry.url}} %}
+        (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
+      {% endif %}
+    </td>
+    <!-- location -->
+    <td>
+      <p>
+      {% if {{entry.location}} == "Harvard" %}
+        Harvard ({{site.roomH}})
+      {% elsif {{entry.location}} == "MIT" %}
+        MIT ({{site.roomM}})
+      {% else %}
+        {{entry.location}}
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>

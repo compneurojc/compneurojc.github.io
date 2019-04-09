@@ -477,7 +477,6 @@ color: #fff;
 
 /* =Content
 -------------------------------------------------------------- */
-
 #main {
 clear: both;
 overflow: hidden;
@@ -747,9 +746,15 @@ padding: 0;
 margin-bottom: 24px;
 }
 
+.highlight td {
+  /* background-color: black; */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+
 /* =Asides
 -------------------------------------------------------------- */
-
 .home #content .format-aside p,
 .home #content .category-asides p {
 font-size: 14px;
