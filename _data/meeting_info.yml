@@ -1,10 +1,18 @@
+- presenter: Michael Happ
+  date: 5.23.2019
+  paper: "Task representations in neural networks trained to perform many cognitive tasks"
+  url: "https://www.nature.com/articles/s41593-018-0310-2"
+  pdf: "/pdf/Task representations in neural networks trained to perform many cognitive tasks.pdf"
+  authors: Yang, Joglekar, Song, Newsome, Wang
+  location: "Harvard"
+
 - presenter: Haozhe Shan
   date: 4.25.2019
   paper: "Deep Learning with Dynamic Spiking Neurons and Fixed Feedback Weights"
   url: "https://www.mitpressjournals.org/doi/10.1162/NECO_a_00929"
   pdf: "/pdf/Deep Learning with Dynamic Spiking Neurons and FixedFeedback Weights.pdf"
   authors: Samadi, Lillicrap, Tweed
-  location: "MIT"
+  location: "Harvard"
 
 - presenter: Jungsoo Kim
   date: 4.18.2019
