@@ -1,3 +1,11 @@
+- presenter: Marc Howard (*special research presentation*)
+  date: 5.30.2019
+  paper: "Compressed representation of time and space in the brain using the Laplace transform"
+  url: "None"
+  pdf:
+  authors: "None"
+  location: "MIT 46-3310 (**note different location for this meeting**)"
+
 - presenter: Michael Happ
   date: 5.23.2019
   paper: "Task representations in neural networks trained to perform many cognitive tasks"
@@ -38,9 +46,9 @@
   authors: Wang, Kurth-Nelson, Kumaran, Tirumala, Soyer, Leibo, Hassabis, Botvinick
   location: "Harvard"
 
-- presenter: Noga Weiss Mosheiff
+- presenter: Noga Weiss Mosheiff (*special research presentation*)
   date: 3.28.2019
-  paper: "Efficiency and stability of the modular grid cell code (research presentation)"
+  paper: "Efficiency and stability of the modular grid cell code"
   url: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005597"
   pdf: "n/a"
   authors:

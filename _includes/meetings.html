@@ -36,10 +36,14 @@
     </td>
     <!-- paper -->
     <td>
-      <p><i>{{entry.paper}}</i>, {{entry.authors}}
-      {% if {{entry.url}} %}
-        (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
+      {% if entry.url == "None" %}
+        <p><i>{{entry.paper}}</i>
+      {% else %}
+        <p><i>{{entry.paper}}</i>, {{entry.authors}}
       {% endif %}
+      {% unless entry.url == "None" %}
+        (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
+      {% endunless %}
     </td>
     <!-- location -->
     {% if next_meeting == 1 %}
