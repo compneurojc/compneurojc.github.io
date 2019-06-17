@@ -1,3 +1,11 @@
+- presenter: Sugandha Sharma and Nhat Le
+  date: 6.12.2019
+  paper: "Tutorial: Building large scale neural models using the Nengo neural simulator"
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#building-large-scale-neural-models-with-the-nengo-neural-simulator"
+  pdf: 
+  authors: 
+  location: "Harvard"
+  
 - presenter: Marc Howard (*special research presentation*)
   date: 5.30.2019
   paper: "Compressed representation of time and space in the brain using the Laplace transform"
