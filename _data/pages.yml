@@ -1,6 +1,6 @@
 - name: Overview
   url: /
-- name: Past meetings
-  url: /past_meetings.html
+- name: Wiki
+  url: https://github.com/compneurojc/compneurojc.github.io/wiki
 - name: Suggested papers
   url: /suggested_reading.html

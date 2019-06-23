@@ -1,4 +1,12 @@
-- presenter: Marc Howard (*special research presentation*) <https://www.dropbox.com/sh/nrrcihbws18nrz2/AAByyZCW8o1Y6vn5nSP0obQVa/Lecture%20Capture%20System?dl=0&preview=46-3189_20190530_124230.mp4&subfolder_nav_tracking=1>link to video recording</a> 
+- presenter: Sugandha Sharma and Nhat Le
+  date: 6.12.2019
+  paper: "Tutorial: Building large scale neural models using the Nengo neural simulator"
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#building-large-scale-neural-models-with-the-nengo-neural-simulator"
+  pdf: "https://mindmodeling.org/cogsci2016/papers/0202/paper0202.pdf"
+  authors: "None"
+  location: "Harvard"
+  
+- presenter: Marc Howard (*special research presentation*)
   date: 5.30.2019
   paper: "Compressed representation of time and space in the brain using the Laplace transform"
   url: "None"
