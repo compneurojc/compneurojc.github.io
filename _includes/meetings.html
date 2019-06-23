@@ -42,12 +42,13 @@
           {{entry.authors}}
         {% endunless %}
       {% else %}
-        <p><i>{{entry.paper}}</i>
+        <!-- hack to deal with comma -->
         {% if entry.pdf == "None" %}
-          {{entry.authors}}
+          <p><i>{{entry.paper}}</i>
         {% else %}
-          , {{entry.authors}}
+          <p><i>{{entry.paper}}, </i>
         {% endif %}
+        {{entry.authors}}
       {% endif %}
       {% unless entry.url == "None" %}
         {% if entry.pdf == "None" %}
