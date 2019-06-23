@@ -38,11 +38,23 @@
     <td>
       {% if entry.url == "None" %}
         <p><i>{{entry.paper}}</i>
+        {% unless entry.authors == "None" %}
+          {{entry.authors}}
+        {% endunless %}
       {% else %}
-        <p><i>{{entry.paper}}</i>, {{entry.authors}}
+        <p><i>{{entry.paper}}</i>
+        {% if entry.pdf == "None" %}
+          {{entry.authors}}
+        {% else %}
+          , {{entry.authors}}
+        {% endif %}
       {% endif %}
       {% unless entry.url == "None" %}
-        (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
+        {% if entry.pdf == "None" %}
+          (<a href="{{entry.url}}">link</a>)
+        {% else %}
+          (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>)
+        {% endif %}
       {% endunless %}
     </td>
     <!-- location -->

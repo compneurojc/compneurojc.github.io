@@ -3,15 +3,15 @@
   paper: "Tutorial: Building large scale neural models using the Nengo neural simulator"
   url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#building-large-scale-neural-models-with-the-nengo-neural-simulator"
   pdf: "https://mindmodeling.org/cogsci2016/papers/0202/paper0202.pdf"
-  authors: "None"
+  authors: ""
   location: "Harvard"
-  
-- presenter: Marc Howard (*special research presentation*)
+
+- presenter: Marc Howard<br><a href="<https://www.dropbox.com/sh/nrrcihbws18nrz2/AAByyZCW8o1Y6vn5nSP0obQVa/Lecture%20Capture%20System?dl=0&preview=46-3189_20190530_124230.mp4&subfolder_nav_tracking=1">Link to video recording</a>
   date: 5.30.2019
   paper: "Compressed representation of time and space in the brain using the Laplace transform"
   url: "None"
   pdf:
-  authors: "None"
+  authors: <br>*special research presentation*
   location: "MIT 46-3310 (**note different location for this meeting**)"
 
 - presenter: Michael Happ
@@ -54,12 +54,12 @@
   authors: Wang, Kurth-Nelson, Kumaran, Tirumala, Soyer, Leibo, Hassabis, Botvinick
   location: "Harvard"
 
-- presenter: Noga Weiss Mosheiff (*special research presentation*)
+- presenter: Noga Weiss Mosheiff
   date: 3.28.2019
   paper: "Efficiency and stability of the modular grid cell code"
   url: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005597"
-  pdf: "n/a"
-  authors:
+  pdf: "None"
+  authors: <br>*special research presentation*<br>
   location: "MIT"
 
 - presenter: Michael Happ, Sugandha Sharma, Sam Lewallen
