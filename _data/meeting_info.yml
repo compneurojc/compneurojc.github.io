@@ -1,3 +1,11 @@
+- presenter: Ben Huh and Jennifer Hu
+  date: 6.26.2019
+  paper: "Tutorial: Backpropagation through time in RNNs and LSTMs"
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#backpropagation-through-time-in-recurrent-neural-networks-vanilla-rnns--lstms"
+  pdf: "None"
+  authors: ""
+  location: "MIT 46-1015"
+  
 - presenter: Sugandha Sharma and Nhat Le
   date: 6.12.2019
   paper: "Tutorial: Building large scale neural models using the Nengo neural simulator"
