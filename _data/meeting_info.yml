@@ -1,3 +1,11 @@
+- presenter: Alex Lew
+  date: 7.17.2019
+  paper: "Probabilistic programming languages"
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#probabilistic-programming-languages"
+  pdf: "None"
+  authors: ""
+  location: "Harvard"
+  
 - presenter: Ben Huh, Jennifer Hu and Peng Qian
   date: 6.26.2019
   paper: "Tutorial: Backpropagation through time in RNNs and LSTMs"
