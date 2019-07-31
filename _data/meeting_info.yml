@@ -1,3 +1,11 @@
+- presenter: Eli Pollock
+  date: 8.7.2019
+  paper: "Training recurrent neural networks (RNNs) using FORCE "
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#training-rnns-using-force"
+  pdf: "None"
+  authors: ""
+  location: "MIT 46-3189"
+  
 - presenter: Alex Lew
   date: 7.17.2019
   paper: "Probabilistic programming languages"
