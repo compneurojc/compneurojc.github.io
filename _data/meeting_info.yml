@@ -1,7 +1,15 @@
+- presenter: Martin Schrimpf
+  date: 8.21.2019
+  paper: "Deep Networks and Pytorch"
+  url: "https://github.com/mschrimpf/pytorch_tutorial"
+  pdf: "None"
+  authors: ""
+  location: "MIT 46-3189"
+  
 - presenter: Eli Pollock
   date: 8.7.2019
   paper: "Training recurrent neural networks (RNNs) using FORCE "
-  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#training-rnns-using-force"
+  url: "https://github.com/elipollock/fullforce_tutorial"
   pdf: "None"
   authors: ""
   location: "MIT 46-3189"
@@ -9,7 +17,7 @@
 - presenter: Alex Lew
   date: 7.17.2019
   paper: "Probabilistic programming languages"
-  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#probabilistic-programming-languages"
+  url: "https://github.com/probcomp/gen-quickstart"
   pdf: "None"
   authors: ""
   location: "Harvard"
@@ -17,7 +25,7 @@
 - presenter: Ben Huh, Jennifer Hu and Peng Qian
   date: 6.26.2019
   paper: "Tutorial: Backpropagation through time in RNNs and LSTMs"
-  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#backpropagation-through-time-in-recurrent-neural-networks-vanilla-rnns--lstms"
+  url: "https://github.com/compneurojc/compneurojc.github.io/wiki/Tutorials#june-26-2019-by-ben-huh-jennifer-hu-and-peng-qian"
   pdf: "None"
   authors: ""
   location: "MIT 46-1015"
