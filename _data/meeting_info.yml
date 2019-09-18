@@ -1,3 +1,11 @@
+- presenter: Nimrod Shaham
+  date: 9.20.2019
+  paper: "Sparse Associative Memory"
+  url: "https://www.mitpressjournals.org/doi/full/10.1162/neco_a_01181"
+  pdf: "None"
+  authors: "Heiko Hoffman"
+  location: "Harvard (Northwest building, Room 255)"
+  
 - presenter: Martin Schrimpf
   date: 8.21.2019
   paper: "Deep Networks and Pytorch"
