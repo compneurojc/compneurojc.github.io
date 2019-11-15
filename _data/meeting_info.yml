@@ -1,3 +1,27 @@
+- presenter: Nhat Le
+  date: 11.15.2019
+  paper: "Prioritized memory access explains planning and hippocampal replay,"
+  url: "https://www.nature.com/articles/s41593-018-0232-z."
+  pdf: "None"
+  authors: "Marcelo G Mattar and Nathaniel D. Daw"
+  location: "MIT (46-6199)"
+  
+- presenter: Greta Tuckute and Alvince Pongos
+  date: 11.8.2019
+  paper: "Real-time decoding of question-and-answer speech dialogue using human cortical activity,"
+  url: "https://www.nature.com/articles/s41467-019-10994-4"
+  pdf: "None"
+  authors: "Moses et al."
+  location: "MIT (46-6199)"
+  
+- presenter: Mikail
+  date: 11.1.2019
+  paper: "Stable memory with unstable synapses,"
+  url: "https://www.nature.com/articles/s41467-019-12306-2?fbclid=IwAR2oGn4LbRbTZGMooBwDweV57flWbL00KlgyBRoSpqcHsTS5I9NeCONIqx0"
+  pdf: "None"
+  authors: "Lee Susman, Naama Brener, and Omri Barak"
+  location: "Harvard (Northwest building, Room 255)"
+
 - presenter: Jungsoo Kim
   date: 10.11.2019
   paper: "Convergent Temperature Representations in Artificial and Biological Neural Networks,"
