@@ -1,3 +1,35 @@
+- presenter: Haozhe Shan 
+  date: 02.21.2020
+  paper: "Neural Tangent Kernel: Convergence and Generalization in Neural Networks,"
+  url: "https://arxiv.org/pdf/1806.07572.pdf"
+  pdf: "None"
+  authors: "Arthur Jacot, Franck Gabriel and Clement Hongler"
+  location: "Harvard (Northwest building, Room 353)"
+
+- presenter: Nayantara Mudur 
+  date: 02.07.2020
+  paper: "A model of temporal scaling correctly predicts that motor timing improves with speed,"
+  url: "https://www.nature.com/articles/s41467-018-07161-6"
+  pdf: "None"
+  authors: "Nicholas F. Hardy, Vishwa Goudar, Juan L. Romero-Sosa & Dean V. Buonomano"
+  location: "Harvard (Northwest building, Room 243)"
+
+- presenter: Eghbal Hosseini
+  date: 12.13.2019
+  paper: "Reverse engineering recurrent neural networks for sentiment classification reveals line attractor dynamics,"
+  url: "https://arxiv.org/pdf/1906.10720.pdf"
+  pdf: "None"
+  authors: "Surya Ganguli, David Sussilo et al. "
+  location: "Harvard (Northwest building, Room 243)"
+
+- presenter: Michael Happ
+  date: 12.06.2019
+  paper: "A Unifying Mechanistic Model of the AuditoryCortex with Inhibitory Subtypes,"
+  url: "https://www.biorxiv.org/content/biorxiv/early/2019/05/02/626358.full.pdf"
+  pdf: "None"
+  authors: "Youngmin Park and Maria N. Geffen"
+  location: "MIT (46-6199)"
+  
 - presenter: Rylan Schaeffer
   date: 11.22.2019
   paper: "Fundamental bounds on learning performance in neural circuits,"
