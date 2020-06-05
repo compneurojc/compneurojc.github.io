@@ -1,3 +1,59 @@
+- presenter: Miachael Happ
+  date: 06.05.2020
+  paper: "Spanning the arc between optimality theories and data,"
+  url: "https://www.worldwideneuro.com/seminar-event.html?id=109"
+  pdf: "None"
+  authors: "Gasper Tkacik"
+  location: "Zoom meeting"
+  
+- presenter: Julia Steinberg
+  date: 05.29.2020
+  paper: "Fundamental Law of Memory Recall (Phys. Rev. Lett. 124, 018101 (2020)),"
+  url: "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.124.018101"
+  pdf: "None"
+  authors: "Michelangelo Naim et. al."
+  location: "Zoom meeting"
+
+- presenter: Sugandha Sharma
+  date: 05.22.2020
+  paper: "The hippocampus as a predictive map,"
+  url: "https://www.youtube.com/watch?v=d2Eu_waWOEs"
+  pdf: "None"
+  authors: "Sam Gershman"
+  location: "Zoom meeting"
+  
+- presenter: Miachael Happ
+  date: 05.15.2020
+  paper: "Deep reinforcement learning and its neuroscientific implications,"
+  url: "https://www.youtube.com/watch?v=elF1T_UHcFs"
+  pdf: "None"
+  authors: "Matt Botvinick"
+  location: "Zoom meeting"
+
+- presenter: Sugandha Sharma
+  date: 05.08.2020
+  paper: "Neural mechanisms of spatial cognition,"
+  url: "https://www.youtube.com/watch?v=cTWL3eOL75A"
+  pdf: "None"
+  authors: "Neil Burgess"
+  location: "Zoom meeting"
+
+- presenter: Miachael Happ
+  date: 05.01.2020
+  paper: "Neural codes for natural behaviors in flying bats,"
+  url: "https://www.youtube.com/watch?v=HXTPWObEN2U"
+  pdf: "None"
+  authors: "Nachum Ulanovsky"
+  location: "Zoom meeting"
+  
+- presenter: Sugandha Sharma
+  date: 04.24.2020
+  paper: "Multiple maps for navigation,"
+  url: "https://www.youtube.com/watch?v=E3o7mfBm91E"
+  pdf: "None"
+  authors: "Lisa Giocomo"
+  location: "Zoom meeting"
+
 - presenter: Haozhe Shan 
   date: 02.21.2020
   paper: "Neural Tangent Kernel: Convergence and Generalization in Neural Networks,"
